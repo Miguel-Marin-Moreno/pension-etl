@@ -1,0 +1,34 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Datos procesados (se regeneran con el pipeline)
+data/processed/
+
+# Datos reales (privados — solo se sube la muestra de data/raw/)
+# Si necesita excluir archivos específicos grandes, agréguelos aquí:
+# data/raw/emp_asig_mensual_REAL.csv
+
+# Variables de entorno
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python bytecode
+__pycache__/
+*.py[cod]
